@@ -10,6 +10,6 @@ public class AServiceImpl implements AService {
 		System.out.println("你好美");
 	}
 	public void cool(String name) {
-		System.out.println("你好："+name+"，you are so beautiful！");
+		System.out.println("hello："+name+"，you are so beautiful！");
 	}
 }
