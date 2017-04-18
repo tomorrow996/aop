@@ -9,6 +9,6 @@ public class AOPTest{
 		BeanFactory factory = new ClassPathXmlApplicationContext("ApplicationContext.xml");
 		AService aService = (AService)factory.getBean("aService");
 		aService.cool();
-		aService.cool("张冲");
+		aService.cool("tomorrow");
 	}
 }
